@@ -11,5 +11,6 @@ public class Student {
     private final int sID;
     private int age;
     private String department;
+    private CoursesOffered offeredCourse;
 
 }

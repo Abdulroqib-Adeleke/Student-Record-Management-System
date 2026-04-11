@@ -9,6 +9,7 @@ public class Course {
     private String courseTitle;
     private int courseUnit;
     private int grade;
+    private int gradePoint;
 
     public Course(String courseCode, String courseTitle, int courseUnit){
         this.courseCode = courseCode;
