@@ -1,20 +1,16 @@
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-@Setter
+@AllArgsConstructor
 @Getter
 public class Course {
 
-    private String courseCode;
-    private String courseTitle;
-    private int courseUnit;
-    private int grade;
-    private int gradePoint;
+    private final String courseCode;
+    private final String courseTitle;
+    private final int courseUnit;
+    private final int grade;
 
-    public Course(String courseCode, String courseTitle, int courseUnit){
-        this.courseCode = courseCode;
-        this.courseTitle = courseTitle;
-        this.courseUnit = courseUnit;
-    }
 
 }
