@@ -5,12 +5,14 @@ import lombok.Setter;
 
 @AllArgsConstructor
 @Getter
+@Setter
 public class Course {
 
     private final String courseCode;
     private final String courseTitle;
     private final int courseUnit;
-    private final int grade;
+    private int courseScore;
+    private char grade;
 
 
 }
